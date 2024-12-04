@@ -1,5 +1,3 @@
-# flex_music_flutter
+# flutter_app
 
-Istinye University student project
-
-
+A new Flutter project.
