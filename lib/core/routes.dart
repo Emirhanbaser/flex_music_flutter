@@ -1,4 +1,7 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_app/screens/albums_screen.dart';
+import 'package:flutter_app/screens/profile_screen.dart';
+import 'package:flutter_app/screens/search_screen.dart';
+import 'package:flutter_app/screens/settings_screen.dart';
 import 'package:go_router/go_router.dart';
 import '../screens/loading_screen.dart';
 import '../screens/home_screen.dart';
@@ -14,6 +17,22 @@ final router = GoRouter(
     GoRoute(
       path: '/home',
       builder: (context, state) => const HomeScreen(),
+    ),
+    GoRoute(
+      path: '/profile',
+      builder: (Context, State) => const ProfileScreen(),
+    ),
+    GoRoute(
+      path: '/albums',
+      builder: (Context, State) => const AlbumsScreen(),
+    ),
+    GoRoute(
+      path: '/search',
+      builder: (Context, State) => const SearchScreen(),
+    ),
+    GoRoute(
+      path: '/settings',
+      builder: (Context, State) => const SettingsScreen(),
     ),
   ],
 );
