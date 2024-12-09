@@ -20,10 +20,10 @@ class LoadingScreen extends StatelessWidget {
             // Logo bölümü
             Expanded(
               child: Container(
-                width: 150,
-                height: 150,
+                width: 350,
+                height: 350,
                 child: Image.asset(
-                  'assets/images/logo.webp',
+                  'assets/images/logo.png',
                   fit: BoxFit.contain,
                 ),
               ),
