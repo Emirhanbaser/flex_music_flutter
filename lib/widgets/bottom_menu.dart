@@ -56,15 +56,6 @@ class BottomMenu extends StatelessWidget {
               CupertinoIcons.music_albums,
             ),
           ),
-          IconButton(
-            onPressed: () {
-              context.go('/settings');
-            },
-            icon: Icon(
-              color: Colors.blue,
-              CupertinoIcons.settings,
-            ),
-          ),
         ],
       ),
     );

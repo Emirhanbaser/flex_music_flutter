@@ -10,6 +10,7 @@ class SearchScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: arkaplanRengim,
+      //sayfa içeriği
       body: Center(
         child: Text(
           "arama ekranim",

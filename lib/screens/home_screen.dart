@@ -13,6 +13,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: arkaplanRengim,
       // AppBar
+
       appBar: AppBar(
         backgroundColor: arkaplanRengim,
         title: const Text(
@@ -28,8 +29,6 @@ class HomeScreen extends StatelessWidget {
           ),
         ],
       ),
-
-      // Drawer (Yan Menü)
 
       // Ana içerik
       body: Column(

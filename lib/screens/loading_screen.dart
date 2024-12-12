@@ -14,7 +14,6 @@ class LoadingScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: arkaplanRengim,
       body: SizedBox.expand(
-        //width: double.infinity,
         child: Column(
           children: [
             // Logo bölümü
