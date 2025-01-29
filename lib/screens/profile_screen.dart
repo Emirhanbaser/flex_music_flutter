@@ -11,6 +11,7 @@ class ProfileScreen extends StatelessWidget {
     return Scaffold(
       //ayarlar sayfası butonu
       appBar: AppBar(
+        //geri dönme butonu
         leading: IconButton(
           icon: const Icon(color: Colors.lightBlue, CupertinoIcons.back),
           onPressed: () {
@@ -31,6 +32,11 @@ class ProfileScreen extends StatelessWidget {
                   icon: Icons.settings,
                   title: "Ayarlar",
                   onTap: () => context.push("/settings"),
+                ),
+                SuggestedActionCard(
+                  icon: Icons.info,
+                  title: "Uygulama Hakkında",
+                  onTap: () => context.push("/hakkinda"),
                 ),
               ],
             ))

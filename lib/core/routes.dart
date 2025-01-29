@@ -1,8 +1,19 @@
 import 'package:flutter_app/screens/albums_screen.dart';
-import 'package:flutter_app/screens/list_screen.dart';
+import 'package:flutter_app/screens/hakkinda_screen.dart';
+import 'package:flutter_app/screens/listeler/arizona_list.dart';
+import 'package:flutter_app/screens/listeler/nkvt_list.dart';
+import 'package:flutter_app/screens/listeler/yedi_list.dart';
+import 'package:flutter_app/screens/m%C3%BCzikler/arasanda.dart';
+import 'package:flutter_app/screens/m%C3%BCzikler/arizona.dart';
+import 'package:flutter_app/screens/m%C3%BCzikler/asosyal.dart';
+import 'package:flutter_app/screens/m%C3%BCzikler/blok3.dart';
+import 'package:flutter_app/screens/m%C3%BCzikler/brapap.dart';
+import 'package:flutter_app/screens/m%C3%BCzikler/cistak.dart';
 import 'package:flutter_app/screens/m%C3%BCzikler/dalga_music.dart';
+import 'package:flutter_app/screens/m%C3%BCzikler/era7.dart';
 import 'package:flutter_app/screens/m%C3%BCzikler/marka_music.dart';
 import 'package:flutter_app/screens/m%C3%BCzikler/paranoya_music.dart';
+import 'package:flutter_app/screens/m%C3%BCzikler/ralli.dart';
 import 'package:flutter_app/screens/profile_screen.dart';
 import 'package:flutter_app/screens/search_screen.dart';
 import 'package:flutter_app/screens/settings_screen.dart';
@@ -51,8 +62,52 @@ final router = GoRouter(
       builder: (Context, State) => const MarkaMusic(),
     ),
     GoRoute(
-      path: '/list',
-      builder: (Context, State) => const ListScreen(),
+      path: '/nkvtlist',
+      builder: (Context, State) => const NkvtList(),
+    ),
+    GoRoute(
+      path: '/yedilist',
+      builder: (Context, State) => const YediList(),
+    ),
+    GoRoute(
+      path: '/arizonalist',
+      builder: (Context, State) => const ArizonaList(),
+    ),
+    GoRoute(
+      path: '/arizona',
+      builder: (Context, State) => const Arizona(),
+    ),
+    GoRoute(
+      path: '/era7',
+      builder: (Context, State) => const Era7(),
+    ),
+    GoRoute(
+      path: '/arasanda',
+      builder: (Context, State) => const Arasanda(),
+    ),
+    GoRoute(
+      path: '/blok3',
+      builder: (Context, State) => const Blok3(),
+    ),
+    GoRoute(
+      path: '/brapap',
+      builder: (Context, State) => const Brapap(),
+    ),
+    GoRoute(
+      path: '/ralli',
+      builder: (Context, State) => const Ralli(),
+    ),
+    GoRoute(
+      path: '/asosyal',
+      builder: (Context, State) => const Asosyal(),
+    ),
+    GoRoute(
+      path: '/cistak',
+      builder: (Context, State) => const Cistak(),
+    ),
+    GoRoute(
+      path: '/hakkinda',
+      builder: (Context, State) => const HakkindaScreen(),
     ),
   ],
 );
