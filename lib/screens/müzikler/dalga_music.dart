@@ -8,6 +8,14 @@ class DalgaMusic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        leading: IconButton(
+          icon: const Icon(color: Colors.lightBlue, CupertinoIcons.back),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
+      ),
       body: SizedBox.expand(
         child: Column(
           children: [

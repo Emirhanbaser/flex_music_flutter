@@ -11,24 +11,24 @@ class ThemeProvider with ChangeNotifier {
 }
 
 const colors = {
-  "primary": Colors.lightBlue,
+  "primary": Color.fromARGB(255, 139, 218, 255),
   "onPrimary": Colors.white,
   "secondary": Colors.white,
   "onSecondary": Colors.white,
   "surface": Colors.white,
-  "onSurface": Colors.lightBlue,
+  "onSurface": Color.fromARGB(255, 139, 218, 255),
   "success": Colors.green,
   "error": Colors.red,
   "onError": Colors.white,
 };
 
 const darkColors = {
-  "primary": Colors.lightBlue,
+  "primary": Color.fromARGB(255, 139, 218, 255),
   "onPrimary": Colors.black,
   "secondary": Colors.black,
   "onSecondary": Colors.black,
   "surface": Colors.black,
-  "onSurface": Colors.lightBlue,
+  "onSurface": Color.fromARGB(255, 139, 218, 255),
   "success": Colors.green,
   "error": Colors.red,
   "onError": Colors.white,

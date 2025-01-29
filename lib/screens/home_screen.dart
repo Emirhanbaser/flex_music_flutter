@@ -13,9 +13,9 @@ class HomeScreen extends StatelessWidget {
       // AppBar
 
       appBar: AppBar(
-        title: Text(
-          'FLEX MUSIC',
-          style: TextStyle(color: Theme.of(context).colorScheme.primary),
+        title: Image.asset(
+          'assets/images/logo.png',
+          height: 300,
         ),
         centerTitle: true,
         actions: [
@@ -44,7 +44,10 @@ class HomeScreen extends StatelessWidget {
                 padding: EdgeInsets.all(14),
                 children: [
                   MusicCard(
-                    image: Image.asset('assets/images/album1.jpg'),
+                    image: Image.asset(
+                      'assets/images/album1.jpg',
+                      fit: BoxFit.cover,
+                    ),
                     title: "PARANOYA",
                     onTap: () => context.push("/marka"),
                   ),

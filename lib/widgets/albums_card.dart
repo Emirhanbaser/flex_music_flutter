@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class MusicCard extends StatelessWidget {
+class AlbumsCard extends StatelessWidget {
   final Image image;
   final String title;
   final VoidCallback onTap;
 
-  const MusicCard({
+  const AlbumsCard({
     required this.image,
     required this.title,
     required this.onTap,

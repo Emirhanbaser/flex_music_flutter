@@ -17,7 +17,7 @@ class SettingsScreen extends StatelessWidget {
                 color: Theme.of(context).colorScheme.primary,
                 CupertinoIcons.back),
             onPressed: () {
-              context.go('/profile');
+              Navigator.pop(context);
             },
           ),
         ),

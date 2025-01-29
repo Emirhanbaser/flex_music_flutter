@@ -11,7 +11,6 @@ class ProfileScreen extends StatelessWidget {
     return Scaffold(
       //ayarlar sayfası butonu
       appBar: AppBar(
-        //geri dönme butonu
         leading: IconButton(
           icon: const Icon(color: Colors.lightBlue, CupertinoIcons.back),
           onPressed: () {

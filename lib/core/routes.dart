@@ -1,4 +1,5 @@
 import 'package:flutter_app/screens/albums_screen.dart';
+import 'package:flutter_app/screens/list_screen.dart';
 import 'package:flutter_app/screens/m%C3%BCzikler/dalga_music.dart';
 import 'package:flutter_app/screens/m%C3%BCzikler/marka_music.dart';
 import 'package:flutter_app/screens/m%C3%BCzikler/paranoya_music.dart';
@@ -48,6 +49,10 @@ final router = GoRouter(
     GoRoute(
       path: '/marka',
       builder: (Context, State) => const MarkaMusic(),
+    ),
+    GoRoute(
+      path: '/list',
+      builder: (Context, State) => const ListScreen(),
     ),
   ],
 );
