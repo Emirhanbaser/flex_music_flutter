@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-
-import '../core/constants.dart';
+import '../widgets/suggested_action_card.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -12,15 +11,6 @@ class ProfileScreen extends StatelessWidget {
     return Scaffold(
       //ayarlar sayfası butonu
       appBar: AppBar(
-        backgroundColor: Colors.black,
-        actions: [
-          IconButton(
-            icon: const Icon(color: Colors.lightBlue, CupertinoIcons.settings),
-            onPressed: () {
-              context.go('/settings');
-            },
-          ),
-        ],
         //geri dönme butonu
         leading: IconButton(
           icon: const Icon(color: Colors.lightBlue, CupertinoIcons.back),
@@ -30,12 +20,22 @@ class ProfileScreen extends StatelessWidget {
         ),
       ),
 
-      backgroundColor: arkaplanRengim,
       //sayfa içeriği
       body: Center(
-        child: Text(
-          "profil ekranim",
-          style: TextStyle(color: Colors.blue),
+        child: Column(
+          children: [
+            Expanded(
+                child: ListView(
+              children: [
+                SizedBox(height: 16),
+                SuggestedActionCard(
+                  icon: Icons.settings,
+                  title: "Ayarlar",
+                  onTap: () => context.push("/settings"),
+                ),
+              ],
+            ))
+          ],
         ),
       ),
     );

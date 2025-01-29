@@ -1,4 +1,7 @@
 import 'package:flutter_app/screens/albums_screen.dart';
+import 'package:flutter_app/screens/m%C3%BCzikler/dalga_music.dart';
+import 'package:flutter_app/screens/m%C3%BCzikler/marka_music.dart';
+import 'package:flutter_app/screens/m%C3%BCzikler/paranoya_music.dart';
 import 'package:flutter_app/screens/profile_screen.dart';
 import 'package:flutter_app/screens/search_screen.dart';
 import 'package:flutter_app/screens/settings_screen.dart';
@@ -33,6 +36,18 @@ final router = GoRouter(
     GoRoute(
       path: '/settings',
       builder: (Context, State) => const SettingsScreen(),
+    ),
+    GoRoute(
+      path: '/dalga',
+      builder: (Context, State) => const DalgaMusic(),
+    ),
+    GoRoute(
+      path: '/paranoya',
+      builder: (Context, State) => const ParanoyaMusic(),
+    ),
+    GoRoute(
+      path: '/marka',
+      builder: (Context, State) => const MarkaMusic(),
     ),
   ],
 );

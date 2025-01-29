@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../core/constants.dart';
 import '../widgets/bottom_menu.dart';
 
 class AlbumsScreen extends StatelessWidget {
@@ -9,7 +8,6 @@ class AlbumsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: arkaplanRengim,
       //sayfa içeriği
       body: Center(
         child: Text(

@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'dart:ui';
 
 class BottomMenu extends StatelessWidget {
   const BottomMenu({
@@ -18,14 +17,9 @@ class BottomMenu extends StatelessWidget {
         bottom: 24,
       ),
       decoration: BoxDecoration(
-          color: Colors.transparent,
-          borderRadius: BorderRadius.circular(20),
-          boxShadow: [
-            BoxShadow(
-                color: const Color.fromRGBO(20, 21, 24, 0).withAlpha(20),
-                blurRadius: 20,
-                spreadRadius: 10),
-          ]),
+        color: Colors.transparent,
+        borderRadius: BorderRadius.circular(20),
+      ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
@@ -34,7 +28,7 @@ class BottomMenu extends StatelessWidget {
               context.go('/home');
             },
             icon: Icon(
-              color: Colors.blue,
+              color: Theme.of(context).colorScheme.primary,
               CupertinoIcons.home,
             ),
           ),
@@ -43,7 +37,7 @@ class BottomMenu extends StatelessWidget {
               context.go('/search');
             },
             icon: Icon(
-              color: Colors.blue,
+              color: Theme.of(context).colorScheme.primary,
               CupertinoIcons.search,
             ),
           ),
@@ -52,7 +46,7 @@ class BottomMenu extends StatelessWidget {
               context.go('/albums');
             },
             icon: Icon(
-              color: Colors.blue,
+              color: Theme.of(context).colorScheme.primary,
               CupertinoIcons.music_albums,
             ),
           ),

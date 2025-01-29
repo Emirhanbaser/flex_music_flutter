@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
-
-import '../core/constants.dart';
 import '../widgets/bottom_menu.dart';
+import '../widgets/music_card.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -11,18 +10,19 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: arkaplanRengim,
       // AppBar
 
       appBar: AppBar(
-        backgroundColor: arkaplanRengim,
-        title: const Text(
+        title: Text(
           'FLEX MUSIC',
-          style: TextStyle(color: Colors.blue),
+          style: TextStyle(color: Theme.of(context).colorScheme.primary),
         ),
+        centerTitle: true,
         actions: [
           IconButton(
-            icon: const Icon(color: Colors.blue, CupertinoIcons.person),
+            icon: Icon(
+                color: Theme.of(context).colorScheme.primary,
+                CupertinoIcons.person),
             onPressed: () {
               context.go('/profile');
             },
@@ -34,18 +34,39 @@ class HomeScreen extends StatelessWidget {
       body: Column(
         children: [
           Expanded(
+            flex: 3,
             child: Container(
-              padding: const EdgeInsets.all(16),
-              child: const Text(
-                'Ana Sayfa İçeriği',
-                style: TextStyle(color: Colors.blue),
+              decoration: BoxDecoration(
+                color: Theme.of(context).colorScheme.surfaceVariant,
+                borderRadius: BorderRadius.vertical(top: Radius.circular(32)),
+              ),
+              child: ListView(
+                padding: EdgeInsets.all(14),
+                children: [
+                  MusicCard(
+                    image: Image.asset('assets/images/album1.jpg'),
+                    title: "PARANOYA",
+                    onTap: () => context.push("/marka"),
+                  ),
+                  SizedBox(height: 16),
+                  MusicCard(
+                    image: Image.asset('assets/images/album2.jpg'),
+                    title: "MARKA",
+                    onTap: () => context.push("/paranoya"),
+                  ),
+                  SizedBox(height: 16),
+                  MusicCard(
+                    image: Image.asset('assets/images/album3.jpg'),
+                    title: "DALGA",
+                    onTap: () => context.push("/dalga"),
+                  ),
+                ],
               ),
             ),
           ),
         ],
       ),
 
-      // Alt navigasyon çubuğu
       bottomNavigationBar: BottomMenu(),
     );
   }

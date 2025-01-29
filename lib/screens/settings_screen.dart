@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-
-import '../core/constants.dart';
+import '../core/themes.dart';
+import 'package:provider/provider.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -10,25 +10,28 @@ class SettingsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //geri dönme butonu
-      appBar: AppBar(
-        backgroundColor: Colors.black,
-        leading: IconButton(
-          icon: const Icon(color: Colors.blue, CupertinoIcons.back),
-          onPressed: () {
-            context.go('/profile');
-          },
+        appBar: AppBar(
+          backgroundColor: Theme.of(context).colorScheme.secondary,
+          leading: IconButton(
+            icon: Icon(
+                color: Theme.of(context).colorScheme.primary,
+                CupertinoIcons.back),
+            onPressed: () {
+              context.go('/profile');
+            },
+          ),
         ),
-      ),
-      backgroundColor: arkaplanRengim,
 
-      //sayfa içeriği
-      body: Center(
-        child: Text(
-          "ayarlar ekranim",
-          style: TextStyle(color: Colors.blue),
-        ),
-      ),
-    );
+        //sayfa içeriği
+        body: ListTile(
+          leading: Icon(Icons.dark_mode_outlined),
+          title: Text('Koyu Mod'),
+          trailing: Switch(
+            value: Theme.of(context).brightness == Brightness.dark,
+            onChanged: (value) {
+              context.read<ThemeProvider>().toggleTheme();
+            },
+          ),
+        ));
   }
 }
