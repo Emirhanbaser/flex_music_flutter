@@ -124,6 +124,12 @@ lib/
 
 ```
 
+
+## Demo Video
+
+
+
+[https://drive.google.com/file/d/1ZvWsDEks3bSqNLqqakfgJd4gphSx2ctJ/view](https://github.com/user-attachments/assets/a4f57488-4872-4825-a588-e78bd87b7358)
   
 
 ## Ekran Görüntüleri
@@ -146,11 +152,7 @@ lib/
   
 
 
-## Demo Video
 
-
-
-https://drive.google.com/file/d/1ZvWsDEks3bSqNLqqakfgJd4gphSx2ctJ/view
 
 
 
