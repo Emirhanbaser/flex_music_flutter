@@ -2,7 +2,7 @@
 # Flutter Projesi
 
   
-<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/assets/images/logo.png" width="200" height="400" />
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/assets/images/logo.png" width="600" height="800" />
   
 
 ## Proje Hakkında
