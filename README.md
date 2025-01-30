@@ -26,11 +26,11 @@ https://github.com/Emirhanbaser
 
 ## Özellikler
 
-- [Ana özellik 1]
+- [Kolay arayüz]
 
-- [Ana özellik 2]
+- [Yenilikçi müzik deneyimi]
 
-- [Ana özellik 3]
+- [Sade Tasarım]
 
   
 
@@ -40,7 +40,6 @@ https://github.com/Emirhanbaser
 
 - Dart
 
-- [Diğer teknolojiler]
 
   
 
@@ -50,11 +49,15 @@ https://github.com/Emirhanbaser
 
 ### Gereksinimler
 
-- Flutter SDK (sürüm X.X.X)
-
-- Dart SDK (sürüm X.X.X)
-
-- [Diğer gerekli yazılımlar]
+ - cupertino_icons: ^1.0.8
+ - dotlottie_loader: ^0.0.4
+ - flutter:
+ - flutter_secure_storage: ^9.2.2
+ - go_router: ^14.6.2
+ - lottie: ^3.1.3
+ - shared_preferences: ^2.3.3
+ - provider: ^6.1.2
+ - google_fonts: ^6.2.1
 
   
 
@@ -64,7 +67,7 @@ https://github.com/Emirhanbaser
 
 ```bash
 
-git  clone [proje-adresi]
+git  clone [https://github.com/Emirhanbaser/flex_music_flutter.git]
 
 ```
 
@@ -74,7 +77,7 @@ git  clone [proje-adresi]
 
 ```bash
 
-cd [proje-adı]
+cd [flex_music_flutter]
 
 ```
 
@@ -106,15 +109,15 @@ flutter  run
 
 lib/
 
-├── modeller/ # Veri modelleri
 
-├── ekranlar/ # Uygulama ekranları
+
+├── screens/ # Uygulama ekranları
 
 ├── widgets/ # Tekrar kullanılabilir arayüz öğeleri
 
-├── servisler/ # API servisleri
+├── services/ # API servisleri
 
-└── yardımcılar/ # Yardımcı fonksiyonlar
+└── listeler/ # Müzik listeleri
 
 ```
 
@@ -122,7 +125,6 @@ lib/
 
 ## Ekran Görüntüleri
 
-[Uygulama ekran görüntüleri buraya eklenecek]
 
   
 
@@ -142,7 +144,7 @@ lib/
 
 ## Lisans
 
-[Lisans türü] kapsamında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
+[MIT LİCENSE] kapsamında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasını inceleyebilirsiniz.
 
   
 
@@ -156,11 +158,7 @@ lib/
 
 ## Teşekkürler
 
-- İstinye Üniversitesi'ne destekleri için teşekkür ederiz
-
-- [Diğer teşekkürler]
+- [Projede yardımları için Alperen Can ve Eray Remzi Yıldıza teşekkür ederim.]
 
   
   
-
-Bunlari degistirmeniz gerekmektedir ;-)
