@@ -13,7 +13,6 @@ class LoadingScreen extends StatelessWidget {
       body: SizedBox.expand(
         child: Column(
           children: [
-            // Logo bölümü
             Expanded(
               child: Container(
                 width: 350,
@@ -24,10 +23,7 @@ class LoadingScreen extends StatelessWidget {
                 ),
               ),
             ),
-
             const SizedBox(height: 30),
-
-            // Yükleme ikonu
             InkWell(
               onTap: () => context.go("/home"),
               child: SizedBox(
