@@ -125,7 +125,20 @@ lib/
 
 ## Ekran Görüntüleri
 
-
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20045125.png" width="200" height="400" />
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20045135.png" width="200" height="400" />
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20045141.png" width="200" height="400" />
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20045149.png" width="200" height="400" />
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20045156.png" width="200" height="400" />
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20045204.png" width="200" height="400" />
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20045209.png" width="200" height="400" />
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20045219.png" width="200" height="400" />
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20045224.png" width="200" height="400" />
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20045228.png" width="200" height="400" />
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20045232.png" width="200" height="400" />
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20045237.png" width="200" height="400" />
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20045242.png" width="200" height="400" />
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20045246.png" width="200" height="400" />
   
 
 ## Projeye Katkı Sağlama
