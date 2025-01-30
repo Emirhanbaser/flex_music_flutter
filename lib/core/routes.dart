@@ -1,4 +1,6 @@
+import 'package:flutter_app/screens/abonelik_screen.dart';
 import 'package:flutter_app/screens/albums_screen.dart';
+import 'package:flutter_app/screens/gizlilik_screen.dart';
 import 'package:flutter_app/screens/hakkinda_screen.dart';
 import 'package:flutter_app/screens/listeler/arizona_list.dart';
 import 'package:flutter_app/screens/listeler/nkvt_list.dart';
@@ -108,6 +110,14 @@ final router = GoRouter(
     GoRoute(
       path: '/hakkinda',
       builder: (Context, State) => const HakkindaScreen(),
+    ),
+    GoRoute(
+      path: '/abonelik',
+      builder: (Context, State) => const AbonelikScreen(),
+    ),
+    GoRoute(
+      path: '/gizlilik',
+      builder: (Context, State) => const GizlilikScreen(),
     ),
   ],
 );

@@ -9,28 +9,48 @@ class SettingsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Theme.of(context).colorScheme.secondary,
-          leading: IconButton(
-            icon: Icon(
-                color: Theme.of(context).colorScheme.primary,
-                CupertinoIcons.back),
-            onPressed: () {
-              Navigator.pop(context);
-            },
-          ),
+      appBar: AppBar(
+        backgroundColor: Theme.of(context).colorScheme.secondary,
+        leading: IconButton(
+          icon: Icon(
+              color: Theme.of(context).colorScheme.primary,
+              CupertinoIcons.back),
+          onPressed: () {
+            Navigator.pop(context);
+          },
         ),
+      ),
 
-        //sayfa içeriği
-        body: ListTile(
-          leading: Icon(Icons.dark_mode_outlined),
-          title: Text('Koyu Mod'),
-          trailing: Switch(
-            value: Theme.of(context).brightness == Brightness.dark,
-            onChanged: (value) {
-              context.read<ThemeProvider>().toggleTheme();
-            },
+      //sayfa içeriği
+      body: ListView(
+        children: [
+          ListTile(
+            leading: Icon(Icons.dark_mode_outlined),
+            title:
+                Text('Koyu Mod', style: Theme.of(context).textTheme.bodyLarge),
+            trailing: Switch(
+              value: Theme.of(context).brightness == Brightness.dark,
+              onChanged: (value) {
+                context.read<ThemeProvider>().toggleTheme();
+              },
+            ),
           ),
-        ));
+          ListTile(
+            leading: Icon(Icons.language),
+            title: Text('Dil'),
+            trailing: DropdownButton<String>(
+              value: 'TR',
+              items: ['TR', 'EN'].map((String value) {
+                return DropdownMenuItem<String>(
+                  value: value,
+                  child: Text(value),
+                );
+              }).toList(),
+              onChanged: (String? newValue) {},
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }

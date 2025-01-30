@@ -19,10 +19,8 @@ class HakkindaScreen extends StatelessWidget {
         ),
       ),
       body: Center(
-        child: Text(
-          "UYGULAMA SÜRÜM 0.0.1",
-          style: TextStyle(color: Theme.of(context).colorScheme.primary),
-        ),
+        child: Text("UYGULAMA SÜRÜM 0.0.1",
+            style: Theme.of(context).textTheme.labelLarge),
       ),
     );
   }

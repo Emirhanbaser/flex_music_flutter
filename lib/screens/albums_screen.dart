@@ -10,14 +10,16 @@ class AlbumsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('ARŞİV'),
+        title: Text('ARŞİV', style: Theme.of(context).textTheme.headlineLarge),
         backgroundColor: Colors.transparent,
       ),
       body: ListView(
         children: [
           ListTile(
             leading: Image.asset('assets/images/nkvt.jpg'),
-            title: Text('KNVT'),
+            title: Text(
+              'KNVT',
+            ),
             subtitle: Text('1 numaralı liste'),
             onTap: () => context.push("/nkvtlist"),
           ),

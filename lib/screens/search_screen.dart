@@ -9,14 +9,12 @@ class SearchScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          'ARA',
-        ),
+        title: Text('ARA', style: Theme.of(context).textTheme.headlineLarge),
       ),
       body: Center(
         child: Text(
           "arama ekranim",
-          style: TextStyle(color: Theme.of(context).colorScheme.primary),
+          style: Theme.of(context).textTheme.labelLarge,
         ),
       ),
       bottomNavigationBar: BottomMenu(),
