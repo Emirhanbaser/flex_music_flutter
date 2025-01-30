@@ -1,8 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
-
-import '../widgets/bottom_menu.dart';
 
 class HakkindaScreen extends StatelessWidget {
   const HakkindaScreen({super.key});
@@ -24,7 +21,7 @@ class HakkindaScreen extends StatelessWidget {
       body: Center(
         child: Text(
           "UYGULAMA SÜRÜM 0.0.1",
-          style: TextStyle(color: Colors.blue),
+          style: TextStyle(color: Theme.of(context).colorScheme.primary),
         ),
       ),
     );

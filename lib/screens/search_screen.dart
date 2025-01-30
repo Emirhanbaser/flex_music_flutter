@@ -16,7 +16,7 @@ class SearchScreen extends StatelessWidget {
       body: Center(
         child: Text(
           "arama ekranim",
-          style: TextStyle(color: Colors.blue),
+          style: TextStyle(color: Theme.of(context).colorScheme.primary),
         ),
       ),
       bottomNavigationBar: BottomMenu(),

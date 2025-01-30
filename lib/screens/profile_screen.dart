@@ -13,7 +13,9 @@ class ProfileScreen extends StatelessWidget {
       appBar: AppBar(
         //geri dönme butonu
         leading: IconButton(
-          icon: const Icon(color: Colors.lightBlue, CupertinoIcons.back),
+          icon: Icon(
+              color: Theme.of(context).colorScheme.primary,
+              CupertinoIcons.back),
           onPressed: () {
             context.go('/home');
           },
@@ -27,6 +29,24 @@ class ProfileScreen extends StatelessWidget {
             Expanded(
                 child: ListView(
               children: [
+                UserAccountsDrawerHeader(
+                  currentAccountPicture: Container(
+                    padding: EdgeInsets.only(left: 170),
+                    child: CircleAvatar(
+                      backgroundColor: Theme.of(context).colorScheme.secondary,
+                      child: Icon(
+                        CupertinoIcons.person_circle,
+                        size: 100,
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                    ),
+                  ),
+                  accountName: Text(""),
+                  accountEmail: null,
+                  decoration: BoxDecoration(
+                    color: Theme.of(context).colorScheme.secondary,
+                  ),
+                ),
                 SizedBox(height: 16),
                 SuggestedActionCard(
                   icon: Icons.settings,

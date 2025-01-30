@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 
 class Era7 extends StatelessWidget {
   const Era7({super.key});
@@ -10,7 +9,9 @@ class Era7 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
-          icon: const Icon(color: Colors.lightBlue, CupertinoIcons.back),
+          icon: Icon(
+              color: Theme.of(context).colorScheme.primary,
+              CupertinoIcons.back),
           onPressed: () {
             Navigator.pop(context);
           },

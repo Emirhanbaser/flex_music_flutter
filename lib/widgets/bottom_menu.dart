@@ -17,7 +17,7 @@ class BottomMenu extends StatelessWidget {
         bottom: 24,
       ),
       decoration: BoxDecoration(
-        color: Colors.transparent,
+        color: Colors.grey,
         borderRadius: BorderRadius.circular(20),
       ),
       child: Row(

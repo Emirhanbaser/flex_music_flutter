@@ -33,6 +33,12 @@ class HomeScreen extends StatelessWidget {
       // Ana içerik
       body: Column(
         children: [
+          Image.asset(
+            'assets/images/anasayfayazı.png',
+            height: 300,
+            width: 400,
+            fit: BoxFit.cover,
+          ),
           Expanded(
             flex: 3,
             child: Container(
@@ -45,17 +51,17 @@ class HomeScreen extends StatelessWidget {
                 children: [
                   MusicCard(
                     image: Image.asset(
-                      'assets/images/album1.jpg',
+                      'assets/images/ekip.png',
                       fit: BoxFit.cover,
                     ),
                     title: "PARANOYA",
-                    onTap: () => context.push("/marka"),
+                    onTap: () => context.push("/paranoya"),
                   ),
                   SizedBox(height: 16),
                   MusicCard(
                     image: Image.asset('assets/images/album2.jpg'),
                     title: "MARKA",
-                    onTap: () => context.push("/paranoya"),
+                    onTap: () => context.push("/marka"),
                   ),
                   SizedBox(height: 16),
                   MusicCard(
