@@ -2,7 +2,9 @@
 # Flutter Projesi
 
   
-<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/assets/images/logo.png" width="600" height="800" />
+
+![İstinye Üniversitesi](https://www.unitededucation.com/linklogoch/istinye-university-logo.png)
+
   
 
 ## Proje Hakkında
