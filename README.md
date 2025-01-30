@@ -2,9 +2,7 @@
 # Flutter Projesi
 
   
-
-![İstinye Üniversitesi](https://www.unitededucation.com/linklogoch/istinye-university-logo.png)
-
+<img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/assets/images/logo.png" width="200" height="400" />
   
 
 ## Proje Hakkında
@@ -163,7 +161,7 @@ lib/
 
 ## İletişim
 
-- Proje Bağlantısı: [GitHub repository linki]
+- Proje Bağlantısı: [https://github.com/Emirhanbaser/flex_music_flutter]
 
 - İstinye Üniversitesi: [https://www.istinye.edu.tr/](https://www.istinye.edu.tr/)
 
