@@ -22,6 +22,9 @@
 -  **Takım Üyeleri:**
 https://github.com/Emirhanbaser
 
+- Emirhan Başer
+- 2320161111
+
   
 
 ## Özellikler
@@ -141,6 +144,16 @@ lib/
 <img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20143145.png" width="400" height="800" />
 <img src="https://github.com/Emirhanbaser/flex_music_flutter/blob/main/ekrang%C3%B6r%C3%BCnt%C3%BCleri/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-01-30%20143150.png" width="400" height="800" />
   
+
+
+## Demo Video
+
+```
+
+https://drive.google.com/file/d/1ZvWsDEks3bSqNLqqakfgJd4gphSx2ctJ/view
+
+```
+
 
 ## Projeye Katkı Sağlama
 
