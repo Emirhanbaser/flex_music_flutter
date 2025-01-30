@@ -17,6 +17,7 @@ class HakkindaScreen extends StatelessWidget {
         title: const Text(
           'UYGULAMA HAKKINDA',
         ),
+        centerTitle: true,
       ),
       body: Center(
         child: Text("UYGULAMA SÜRÜM 0.0.1",

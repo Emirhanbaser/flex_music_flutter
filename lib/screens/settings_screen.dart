@@ -36,6 +36,14 @@ class SettingsScreen extends StatelessWidget {
             ),
           ),
           ListTile(
+            leading: Icon(Icons.notifications),
+            title: Text('Bildirimler'),
+            trailing: Switch(
+              value: false,
+              onChanged: (value) {},
+            ),
+          ),
+          ListTile(
             leading: Icon(Icons.language),
             title: Text('Dil'),
             trailing: DropdownButton<String>(
