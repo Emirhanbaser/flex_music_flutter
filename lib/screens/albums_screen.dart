@@ -15,6 +15,17 @@ class AlbumsScreen extends StatelessWidget {
       ),
       body: ListView(
         children: [
+          Container(
+            padding: EdgeInsets.only(left: 16),
+            height: 50,
+            color: Theme.of(context).colorScheme.secondary,
+            child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  'Son eklenenler',
+                  style: Theme.of(context).textTheme.titleLarge,
+                )),
+          ),
           ListTile(
             leading: Image.asset('assets/images/nkvt.jpg'),
             title: Text(

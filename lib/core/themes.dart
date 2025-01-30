@@ -14,7 +14,7 @@ class ThemeProvider with ChangeNotifier {
 const colors = {
   "primary": Color.fromARGB(255, 139, 218, 255),
   "onPrimary": Colors.white,
-  "secondary": Colors.white,
+  "secondary": Color.fromARGB(255, 255, 255, 255),
   "onSecondary": Colors.white,
   "surface": Colors.white,
   "onSurface": Color.fromARGB(255, 139, 218, 255),

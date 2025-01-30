@@ -9,7 +9,7 @@
 
 ## Proje Hakkında
 
-[Müzik dinlemek]
+[Müzik dinleme deneyimini en üst seviyeye çıkarmak için tasarlandı.Kolay ve özel tasarlanmış arayüz,rahatça oluturabileceğin listeler,müzik yapım şirketleri , şarkıcılar, rapçiler , popçular ve müzik dinlemeye can atan dinleyiciler için memnuniyet sunmak için tasarlandı.Tamamen yenilikçi bir vizyonla yapıldı.]
 
   
 

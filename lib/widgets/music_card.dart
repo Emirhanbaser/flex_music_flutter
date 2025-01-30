@@ -4,11 +4,13 @@ class MusicCard extends StatelessWidget {
   final Image image;
   final String title;
   final VoidCallback onTap;
+  final IconData icon;
 
   const MusicCard({
     required this.image,
     required this.title,
     required this.onTap,
+    required this.icon,
   });
 
   @override
@@ -20,6 +22,9 @@ class MusicCard extends StatelessWidget {
         leading:
             CircleAvatar(backgroundColor: Colors.transparent, child: image),
         title: Text(title),
+        trailing: Icon(
+          Icons.add,
+        ),
       ),
     );
   }

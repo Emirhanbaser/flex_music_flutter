@@ -63,13 +63,9 @@ class ProfileScreen extends StatelessWidget {
                   title: "ABONELİK YÖNET",
                   onTap: () => context.push("/abonelik"),
                 ),
-                ListTile(
-                  leading: Icon(Icons.privacy_tip),
-                  title: Text('Gizlilik Politikası'),
-                  trailing: Icon(
-                    Icons.arrow_forward_ios,
-                    size: 14,
-                  ),
+                SuggestedActionCard(
+                  icon: Icons.privacy_tip,
+                  title: "Gizlilik Politikası",
                   onTap: () => context.push("/gizlilik"),
                 ),
               ],

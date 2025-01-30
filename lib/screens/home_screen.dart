@@ -39,6 +39,17 @@ class HomeScreen extends StatelessWidget {
             width: 400,
             fit: BoxFit.cover,
           ),
+          Container(
+            padding: EdgeInsets.only(left: 30),
+            height: 50,
+            color: Theme.of(context).colorScheme.secondary,
+            child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  'Güncel',
+                  style: Theme.of(context).textTheme.titleLarge,
+                )),
+          ),
           Expanded(
             flex: 3,
             child: Container(
@@ -50,24 +61,75 @@ class HomeScreen extends StatelessWidget {
                 padding: EdgeInsets.all(14),
                 children: [
                   MusicCard(
+                    icon: Icons.add,
                     image: Image.asset(
                       'assets/images/ekip.png',
                       fit: BoxFit.cover,
                     ),
-                    title: "PARANOYA",
+                    title: "PARANOYA Emo & Eray061 & Apocanonthetrack",
                     onTap: () => context.push("/paranoya"),
                   ),
                   SizedBox(height: 16),
                   MusicCard(
+                    icon: Icons.add,
                     image: Image.asset('assets/images/album2.jpg'),
-                    title: "MARKA",
+                    title: "MARKA BATUFLEX",
                     onTap: () => context.push("/marka"),
                   ),
                   SizedBox(height: 16),
                   MusicCard(
+                    icon: Icons.add,
                     image: Image.asset('assets/images/album3.jpg'),
-                    title: "DALGA",
+                    title: "DALGA BATUFLEX",
                     onTap: () => context.push("/dalga"),
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Container(
+            padding: EdgeInsets.only(left: 30),
+            height: 50,
+            color: Theme.of(context).colorScheme.secondary,
+            child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  'Top List',
+                  style: Theme.of(context).textTheme.titleLarge,
+                )),
+          ),
+          Expanded(
+            flex: 3,
+            child: Container(
+              decoration: BoxDecoration(
+                color: Theme.of(context).colorScheme.surfaceVariant,
+                borderRadius: BorderRadius.vertical(top: Radius.circular(32)),
+              ),
+              child: ListView(
+                padding: EdgeInsets.all(14),
+                children: [
+                  MusicCard(
+                    icon: Icons.add,
+                    image: Image.asset(
+                      'assets/images/organize.jpg',
+                      fit: BoxFit.cover,
+                    ),
+                    title: "THE WORL İS YOURS  ORGANİZE",
+                    onTap: () => context.push("/organize"),
+                  ),
+                  SizedBox(height: 16),
+                  MusicCard(
+                    icon: Icons.add,
+                    image: Image.asset('assets/images/cistak.jpg'),
+                    title: "Era7capone ft. Batuflex - CISTAK ",
+                    onTap: () => context.push("/cistak"),
+                  ),
+                  SizedBox(height: 16),
+                  MusicCard(
+                    icon: Icons.add,
+                    image: Image.asset('assets/images/eray067.jpg'),
+                    title: "ERAY067 & ERA7 MAHALLE",
+                    onTap: () => context.push("/eray067"),
                   ),
                 ],
               ),

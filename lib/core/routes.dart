@@ -13,9 +13,11 @@ import 'package:flutter_app/screens/m%C3%BCzikler/brapap.dart';
 import 'package:flutter_app/screens/m%C3%BCzikler/cistak.dart';
 import 'package:flutter_app/screens/m%C3%BCzikler/dalga_music.dart';
 import 'package:flutter_app/screens/m%C3%BCzikler/era7.dart';
+import 'package:flutter_app/screens/m%C3%BCzikler/eray067.dart';
 import 'package:flutter_app/screens/m%C3%BCzikler/marka_music.dart';
 import 'package:flutter_app/screens/m%C3%BCzikler/paranoya_music.dart';
 import 'package:flutter_app/screens/m%C3%BCzikler/ralli.dart';
+import 'package:flutter_app/screens/m%C3%BCzikler/organize.dart';
 import 'package:flutter_app/screens/profile_screen.dart';
 import 'package:flutter_app/screens/search_screen.dart';
 import 'package:flutter_app/screens/settings_screen.dart';
@@ -118,6 +120,14 @@ final router = GoRouter(
     GoRoute(
       path: '/gizlilik',
       builder: (Context, State) => const GizlilikScreen(),
+    ),
+    GoRoute(
+      path: '/organize',
+      builder: (Context, State) => const Organize(),
+    ),
+    GoRoute(
+      path: '/eray067',
+      builder: (Context, State) => const Eray067(),
     ),
   ],
 );
